@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    height: 100;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.878);
+    color: #d85050c4
+}
+
+
+    .apresentacao {     
+  margin: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap:82px;
+
+}
+.
+
+.titulo_BERSERKER {
+    width: 50%
+    display: flex
+    flex-direction: column; 
+    gap: 40px;
+}
+
+.apresentacao_conteudo_titulo {
+    font-size: 150%;
+    font-family: 'Krona One', sans-serif; 
+    margin-bottom: 20px;
+}
+
+.apresentacao_conteudo_paragrafo {
+    font-size: 100%;
+}
+.apresentacao_links_subititulo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+    
+.apresencao_dos_botoesinstagram {
+    background-color: rgba(0, 0, 0, 0.971);
+    width: 250%
+    text-align: center;
+    border: 2px solid #22d4fd;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 3.05px ;
+    text-decoration: none;
+color: #F6F6F6;
+}
+.apresencao_dos_botoesinstagram :hover {
+
+ background-color: rgb(195, 121, 25);
+
+}
+
+.apresentacao_imagem {
+    width: 50%;
+  }
+
+.rodape {
+padding: 24px;
+color: var(--cor-primaria);
+background-color:-color: var(--cor-terciaria);
+text-align: center;
+font-family: var(--font-segundaria);
+fron-size: 1.5rem;
+font-weight: 400;
+}
+@media (max-width: 750px)
+.apresentacao {
+    flex-direction: column-reverse;
+    padding: 5%;
+}
+
+.titulo_BERSERKER {
+    width: auto;
+}
+
